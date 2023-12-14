@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+   <link rel="stylesheet" href="./aula 12 - Introdução API/styles/style2.css">
+</head>
+<body>
+
+    <div id="cep-form">
+        <h2>Consulta de CEP</h2>
+
+        <input type="text" id="cep">
+                <button type="button" id="submit-btn" onclick="consultar()">Consultar</button>
+        <form id="form-cep">
+            <div class="form-group">
+                <label for="logradouro">Logradouro:</label>
+                <input type="text" id="logradouro" name="logradouro" readonly>
+            </div>
+            <div class="form-group">
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro" readonly>
+            </div>
+            <div class="form-group">
+                <label for="siafi">SIAFI:</label>
+                <input type="text" id="siafi" name="siafi" readonly>
+            </div>
+            <div class="form-group">
+                <label for="uf">UF:</label>
+                <input type="text" id="uf" name="uf" readonly>
+            </div>
+            <div class="form-group">
+                <label for="complemento">Complemento:</label>
+                <input type="text" id="complemento" name="complemento" readonly>
+            </div>
+            <div class="form-group">
+                <label for="ddd">DDD:</label>
+                <input type="text" id="ddd" name="ddd" readonly>
+            </div>
+            
+        </form>
+    </div>
+
+    <script src="./aula 12 - Introdução API/scripts/script2.js"></script>
+</body>
+</html>
